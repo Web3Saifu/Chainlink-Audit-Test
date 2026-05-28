@@ -97,6 +97,7 @@ contract FeeAggregator is
   /// @notice This error is thrown when attempting to add a 0 destination or source chain selector
   error InvalidChainSelector();
 
+
   /// @notice Parameters to instantiate the contract in the constructor
   // solhint-disable-next-line gas-struct-packing
   struct ConstructorParams {
